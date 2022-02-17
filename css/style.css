@@ -1,0 +1,182 @@
+/*=========== COMMON CSS START ===========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #131313;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 250vh;
+    background: #fff;
+    box-shadow: inset -10px 0 40px rgba(0,0,0,1), 
+    inset 10px 0 40px rgba(0,0,0,1),
+    inset -10px 0 10px rgba(255,255,255,0.25),
+    inset 10px 0 10px rgba(255,255,255,0.25),
+    0 0 50px rgba(0,0,0,1);
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 35px -35px;
+    }
+}
+
+@keyframes animate_two{
+    0%{
+        background-position: 35px -35px;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.layer.layer1{
+    background: #222 radial-gradient(#96ff6d 9px, #000 9px, #000 13px, transparent 13px);
+    background-size: 35px 35px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    -webkit-transform: translate(-50%,-50%) rotate(45deg);
+    -moz-transform: translate(-50%,-50%) rotate(45deg);
+    -ms-transform: translate(-50%,-50%) rotate(45deg);
+    -o-transform: translate(-50%,-50%) rotate(45deg);
+    z-index: 11;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+
+.layer.layer2{
+    background: #222 radial-gradient(#910aff 9px, #000 9px, #000 13px, transparent 13px);
+    background-size: 35px 35px;
+    transform: translate(-50%,-40%) rotate(45deg);
+    -webkit-transform: translate(-50%,-40%) rotate(45deg);
+    -moz-transform: translate(-50%,-40%) rotate(45deg);
+    -ms-transform: translate(-50%,-40%) rotate(45deg);
+    -o-transform: translate(-50%,-40%) rotate(45deg);
+    z-index: 3;
+    animation: animate_two 2s linear infinite;
+    -webkit-animation: animate_two 2s linear infinite;
+}
+
+.layer.layer3{
+    background: #222 radial-gradient(#00aeff 9px, #000 9px, #000 13px, transparent 13px);
+    background-size: 35px 35px;
+    transform: translate(-50%,-60%) rotate(45deg);
+    -webkit-transform: translate(-50%,-60%) rotate(45deg);
+    -moz-transform: translate(-50%,-60%) rotate(45deg);
+    -ms-transform: translate(-50%,-60%) rotate(45deg);
+    -o-transform: translate(-50%,-60%) rotate(45deg);
+    z-index: 3;
+    animation: animate_two 2s linear infinite;
+    -webkit-animation: animate_two 2s linear infinite;
+}
+
+.layer.layer4{
+    background: #222 radial-gradient(#07eeff 9px, #000 9px, #000 13px, transparent 13px);
+    background-size: 35px 35px;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+    -moz-transform: translate(-50%,-50%) rotate(-45deg);
+    -ms-transform: translate(-50%,-50%) rotate(-45deg);
+    -o-transform: translate(-50%,-50%) rotate(-45deg);
+    z-index: 12;
+    animation: animate_two 2s linear infinite;
+    -webkit-animation: animate_two 2s linear infinite;
+}
+
+.layer.layer5{
+    background: #222 radial-gradient(#e91ece 9px, #000 9px, #000 13px, transparent 13px);
+    background-size: 35px 35px;
+    transform: translate(-50%,-40%) rotate(-45deg);
+    -webkit-transform: translate(-50%,-40%) rotate(-45deg);
+    -moz-transform: translate(-50%,-40%) rotate(-45deg);
+    -ms-transform: translate(-50%,-40%) rotate(-45deg);
+    -o-transform: translate(-50%,-40%) rotate(-45deg);
+    z-index: 10;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+
+.layer.layer6{
+    background: #222 radial-gradient(#08eb08 9px, #000 9px, #000 13px, transparent 13px);
+    background-size: 35px 35px;
+    transform: translate(-50%,-60%) rotate(-45deg);
+    -webkit-transform: translate(-50%,-60%) rotate(-45deg);
+    -moz-transform: translate(-50%,-60%) rotate(-45deg);
+    -ms-transform: translate(-50%,-60%) rotate(-45deg);
+    -o-transform: translate(-50%,-60%) rotate(-45deg);
+    z-index: 10;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
